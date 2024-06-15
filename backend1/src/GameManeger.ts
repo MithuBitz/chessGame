@@ -30,7 +30,7 @@ export class GameManager {
       if (message.type === INIT_GAME) {
         //If the user or player is waiting for the player then
         if (this.pendingUser) {
-          //Start the gaem
+          //Start the game
         } else {
           //if the user not waiting for next player then
           this.pendingUser = socket;
